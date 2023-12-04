@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App Folha De Pagamento"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/textViewfuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Funcionario:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome do funcionario" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salário Bruto:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextSalarioBruto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o salário bruto"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descontos:(INSS, IR, entre outros)"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextDescontos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o valor total dos descontos"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beneficios:   (Vale transporte, Vale-alimentação, Plano de saúde, entre outros)"
+        android:textSize="18sp" />/>
+    <EditText
+        android:id="@+id/editTextBeneficios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o valor total dos benefícios"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Salário Líquido" />
+
+    <TextView
+        android:id="@+id/textViewSalarioLiquido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />/>
+
+</LinearLayout>

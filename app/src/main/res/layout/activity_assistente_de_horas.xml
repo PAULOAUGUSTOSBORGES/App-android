@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/fc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isabela Souza "
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/fc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedro Guilherme"
+        android:textSize="20sp"/>/>
+
+    <TextView
+        android:id="@+id/fc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gabriel Barbosa"
+        android:textSize="20sp"/>/>
+
+    <TextView
+        android:id="@+id/fc4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ana Luiza"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />/>
+</LinearLayout>

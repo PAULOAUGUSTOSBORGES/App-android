@@ -10,7 +10,7 @@
         android:id="@+id/fc1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Isabela Souza "
+        android:text="@string/txt_name_isabela_souza"
         android:textSize="20sp"/>
 
 
@@ -18,26 +18,26 @@
         android:id="@+id/fc2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pedro Guilherme"
-        android:textSize="20sp"/>/>
+        android:text="@string/txt_name_pedro_guilherme"
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/fc3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gabriel Barbosa"
-        android:textSize="20sp"/>/>
+        android:text="@string/txt_name_gabriel_barbosa"
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/fc4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ana Luiza"
+        android:text="@string/txt_name_ana_luiza"
         android:textSize="20sp"/>
 
     <Button
         android:id="@+id/voltar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Voltar" />/>
+        android:text="@string/txt_voltar" />/>
 </LinearLayout>

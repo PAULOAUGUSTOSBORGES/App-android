@@ -1,4 +1,28 @@
 <resources>
     <string name="app_name">Folha de pagamento</string>
     <string name="title_activity_assitente_de_horas">AssitenteDeHoras</string>
+    <string name="txt_usuario">Usuario:</string>
+    <string name="txt_senha">Senha:</string>
+    <string name="txt_menu">Menu</string>
+    <string name="txt_name_isabela_souza">Isabela Souza</string>
+    <string name="txt_name_pedro_guilherme">Pedro Guilherme</string>
+    <string name="txt_name_gabriel_barbosa">Gabriel Barbosa</string>
+    <string name="txt_name_ana_luiza">Ana Luiza</string>
+    <string name="txt_voltar">Voltar</string>
+    <string name="txt_nome_do_funcionario">Nome do Funcionario:</string>
+    <string name="txt_digite_o_nome_do_funcionario">Digite o nome do funcionario</string>
+    <string name="txt_salario_bruto">Salário Bruto:</string>
+    <string name="txt_digite_o_sal_rio_bruto">Digite o salário bruto</string>
+    <string name="txt_descontos_inss_ir_entre_outros">Descontos:(INSS, IR, entre outros)</string>
+    <string name="txt_digite_o_valor_total_dos_descontos">Digite o valor total dos descontos</string>
+    <string name="txt_beneficios_vale_transporte_vale_alimenta_o_plano_de_sa_de_entre_outros">Beneficios: (Vale transporte, Vale-alimentação, Plano de saúde, entre outros)</string>
+    <string name="txt_digite_o_valor_total_dos_beneficios">Digite o valor total dos benefícios</string>
+    <string name="txt_calcular_salario_liquido">Calcular Salário Líquido</string>
+    <string name="txt_assistente_de_horas">Assistente de horas</string>
+    <string name="txt_emissor_de_holarites">Emissor De Holarites</string>
+    <string name="txt_suporte_tecnico">Suporte tecnico</string>
+    <string name="txt_suporte_whatsapp">Whatsapp: (64) 99252-8420</string>
+    <string name="txt_suporte_email_suporte">E-mail: suporte@fdpsystem.com.br</string>
+    <string name="txt_suporte_chat_suporte">Live Chat: Acme Corp</string>
+    <string name="txt_suporte_ticket_support">Ticket Support: Submit a Ticktet</string>
 </resources>

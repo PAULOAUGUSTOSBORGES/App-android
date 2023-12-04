@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -10,29 +9,29 @@
         android:id="@+id/wpp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Whatsapp: (64) 99252-8420" />
+        android:text="@string/txt_suporte_whatsapp" />
 
     <TextView
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="E-mail: suporte@fdpsystem.com.br" />
+        android:text="@string/txt_suporte_email_suporte" />
 
     <TextView
         android:id="@+id/chat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Live Chat: Acme Corp" />
+        android:text="@string/txt_suporte_chat_suporte" />
 
     <TextView
         android:id="@+id/Tickt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ticket Support: Submit a Ticktet" />
+        android:text="@string/txt_suporte_ticket_support" />
 
     <Button
         android:id="@+id/voltar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Voltar" />/>
+        android:text="@string/txt_voltar" />
 </LinearLayout>

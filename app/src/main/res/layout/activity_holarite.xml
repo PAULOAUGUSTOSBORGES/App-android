@@ -9,64 +9,66 @@
         android:id="@+id/textViewTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="App Folha De Pagamento"
+        android:text="@string/app_name"
         android:textSize="30sp"/>
     <TextView
         android:id="@+id/textViewfuncionario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nome do Funcionario:"
+        android:text="@string/txt_nome_do_funcionario"
         android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editTextFuncionario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite o nome do funcionario" />
+        android:hint="@string/txt_digite_o_nome_do_funcionario" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Salário Bruto:"
+        android:text="@string/txt_salario_bruto"
         android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editTextSalarioBruto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite o salário bruto"
+        android:hint="@string/txt_digite_o_sal_rio_bruto"
         android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Descontos:(INSS, IR, entre outros)"
+        android:text="@string/txt_descontos_inss_ir_entre_outros"
         android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editTextDescontos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite o valor total dos descontos"
+        android:hint="@string/txt_digite_o_valor_total_dos_descontos"
         android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Beneficios:   (Vale transporte, Vale-alimentação, Plano de saúde, entre outros)"
-        android:textSize="18sp" />/>
+        android:text="@string/txt_beneficios_vale_transporte_vale_alimenta_o_plano_de_sa_de_entre_outros"
+        android:textSize="18sp" />
+
     <EditText
         android:id="@+id/editTextBeneficios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite o valor total dos benefícios"
+        android:hint="@string/txt_digite_o_valor_total_dos_beneficios"
         android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/buttonCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calcular Salário Líquido" />
+        android:text="@string/txt_calcular_salario_liquido" />
 
     <TextView
         android:id="@+id/textViewSalarioLiquido"
@@ -80,6 +82,6 @@
         android:id="@+id/voltar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Voltar" />/>
+        android:text="@string/txt_voltar" />/>
 
 </LinearLayout>

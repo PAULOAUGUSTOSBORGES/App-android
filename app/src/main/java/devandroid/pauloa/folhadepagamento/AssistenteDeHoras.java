@@ -9,16 +9,16 @@ import android.widget.Button;
 import devandroid.pauloa.folhadepagamento.R;
 
 public class AssistenteDeHoras extends AppCompatActivity {
-    private Button voltar;
+    private Button voltar;//Variavel para instanciar o botão voltar
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_assistente_de_horas);
+        setContentView(R.layout.activity_assistente_de_horas);//chamando o xml do layout
 
-        voltar = findViewById(R.id.voltar);
+        voltar = findViewById(R.id.voltar); //colocando o botão voltar na variavel voltar
 
-        voltar.setOnClickListener(View ->{
+        voltar.setOnClickListener(View ->{//codigo para ao clicar no botao voltar ele chame a tela menu.class
             startActivities(new Intent[]{new Intent(this, menu.class)});
         });
 
